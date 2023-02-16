@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial,sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbarH ul{
+    display: flex;
+    align-items: center;
+}
+
+.navbarH ul li, .navbarH a {
+    list-style: none;
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    font-size: 12px;
+    margin-right: 12px;
+}
+
+.navbarH img {
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+}
+
+.banner img {
+    width: 272px;
+    height: 92px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    height: 215px;
+}
+
+.banner img {
+    align-self: end;
+}
+
+.search {
+    padding-top: 20px;
+}
+
+.searchF img {
+     width: 24px;
+}
+
+.otherS, .otherS a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    font-size: 14px;
+}
+
+.otherOne a {
+
+}
+
+.otherOne {
+    display: flex;
+    align-items: center;
+    width: 142px;
+    height: 36px;
+}
+
+
+.searchF {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 574px;
+    height: 24px;
+    border-radius: 20px;
+    border: 1px solid #99989857;
+    font-size: 14px;
+    gap: 15px;
+}
+
+.searchF input {
+    text-align: left;
+    border: none;
+    font-size: 14px;
+    width: 450px;
+}
+
+.preencher {
+    height: 270px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f2f2f2;
+    color: #70757a;
+    padding-right: 30px;
+    padding-left:  30px;
+    height: 85px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.navFooter, .navFooter ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.navFooter li, .navFooter a {
+    color: #70757a;
+    font-size: 14px;
+}
+
+.lang {
+    padding-top:15px;
+    padding-bottom: 10px;
+}
+
+.navFooter {
+    justify-content: space-between;
+    border-top: 1px solid #70757a36;
+    padding-top: 10px;
+}
+
+@media (max-width:600px) {
+
+    .banner img {
+        width: 240px;
+    }
+
+    .searchF {
+        max-width: 340px;
+    }
+
+    .navF1 ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main{
+        height: 400px;
+    }
+
+    .navFooter ul{
+        gap: 8px;
+    }
+
+    footer {
+        height: auto;
+        padding-top: 5px ;
+        padding-bottom: 15px;
+    }
+}
